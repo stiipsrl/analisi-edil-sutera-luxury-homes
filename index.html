@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Combat Events - Analisi Progetto | STIIP</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="icon" href="assets/image/favicon-stiip.svg" sizes="192x192">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="fixed top-0 w-full bg-[#FCD415] text-gray-900 z-50 shadow-md">
+        <div class="flex items-center justify-between px-6 py-4">
+            <div class="flex items-center">
+                <img src="https://stiip.it/wp-content/uploads/2021/11/logo_stiip.svg" alt="STIIP Logo" class="h-8 mr-4">
+                <span class="text-lg sm:text-xl md:text-2xl font-medium">Sport Combat Events</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <span class="text-sm">Powered by</span>
+                <img src="https://stiip.it/wp-content/uploads/2021/11/logo_stiip.svg" alt="STIIP Logo" class="h-6">
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="max-w-7xl mx-auto flex gap-2 overflow-x-auto hide-scrollbar mt-20 mb-4 px-4">
+        <button class="tab-btn active px-4 py-2 rounded-lg flex items-center" data-tab="overview">
+            <span class="material-icons-outlined mr-2">home</span>Overview
+        </button>
+        <button class="tab-btn px-4 py-2 rounded-lg flex items-center" data-tab="analysis">
+            <span class="material-icons-outlined mr-2">analytics</span>Analisi Agile
+        </button>
+        <button class="tab-btn px-4 py-2 rounded-lg flex items-center" data-tab="demo">
+            <span class="material-icons-outlined mr-2">devices</span>Demo
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <div id="overview" class="tab-content active"></div>
+        <div id="analysis" class="tab-content hidden"></div>
+        <div id="demo" class="tab-content hidden"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 mt-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-4">
+                    <img src="https://stiip.it/wp-content/uploads/2021/11/logo_stiip.svg" alt="STIIP Logo" class="h-8">
+                    <div>
+                        <div class="font-medium">STIIP Srl</div>
+                        <div class="text-sm text-gray-400">Soluzioni Digitali Creative</div>
+                    </div>
+                </div>
+                <div class="text-sm text-gray-400">
+                    © 2024 STIIP Srl. Tutti i diritti riservati.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tabs.js"></script>
+</body>
+</html>
