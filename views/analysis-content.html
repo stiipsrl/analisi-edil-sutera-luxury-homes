@@ -4,9 +4,8 @@
         <div class="border-l-4 brand-border pl-4 mb-8">
             <h2 class="text-2xl font-bold text-gray-800 mb-4">Roadmap di Sviluppo</h2>
             <p class="text-gray-600">
-                Il progetto segue una strategia di sviluppo incrementale, suddivisa in due fasi distinte. 
-                Ogni fase è composta da sprint settimanali, permettendo una delivery costante di valore 
-                e la possibilità di adattare il prodotto in base al feedback degli stakeholder.
+                Lo sviluppo della piattaforma Web segue una metodologia Agile articolata in 8 Sprint settimanali.
+                Questo approccio strutturato garantisce uno sviluppo progressivo e mirato, dove ogni fase costruisce su quella precedente aggiungendo nuove funzionalità. La strategia incrementale permette di validare continuamente il prodotto con gli stakeholder, ottimizzando ogni componente in base ai feedback ricevuti e assicurando il massimo livello qualitativo. Grazie a questa metodologia, possiamo mantenere elevata flessibilità progettuale garantendo al contempo tempistiche di consegna precise e risultati tangibili a ogni milestone.
             </p>
         </div>
         
@@ -19,8 +18,8 @@
                     <span class="material-symbols-outlined text-yellow-700">rocket_launch</span>
                 </div>
                 <div class="text-center">
-                    <div class="font-semibold">Fase 1</div>
-                    <div class="text-sm text-gray-500">MVP (4 settimane)</div>
+                    <div class="font-semibold">Fase Core</div>
+                    <div class="text-sm text-gray-500">Setup & Auth (4 settimane)</div>
                 </div>
             </div>
             
@@ -29,27 +28,25 @@
                     <span class="material-symbols-outlined text-yellow-700">upgrade</span>
                 </div>
                 <div class="text-center">
-                    <div class="font-semibold text-gray-600">Fase 2</div>
-                    <div class="text-sm text-gray-500">Enhancement (4 settimane)</div>
+                    <div class="font-semibold text-gray-600">Fase Avanzata</div>
+                    <div class="text-sm text-gray-500">Features & Polish (4 settimane)</div>
                 </div>
             </div>
-            
         </div>
     </div>
 
-    <!-- Fase 1: MVP -->
+    <!-- Fase 1: Core -->
     <div class="bg-white rounded-xl shadow-md p-6 relative overflow-hidden">
-        
         <div class="flex items-center mb-8">
             <div class="flex items-center justify-center w-12 h-12 bg-brand rounded-xl mr-4">
                 <span class="material-icons-outlined text-2xl text-gray-900">rocket_launch</span>
             </div>
             <div>
                 <div class="flex items-center">
-                    <h3 class="text-lg font-semibold text-yellow-800">Fase 1: Minimum Viable Product</h3>
+                    <h3 class="text-lg font-semibold text-yellow-800">Fase 1: Funzionalità Core</h3>
                     <span class="ml-4 px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">4 Sprint</span>
                 </div>
-                <p class="text-gray-600 mt-1">Implementazione delle funzionalità core per il lancio iniziale</p>
+                <p class="text-gray-600 mt-1">Implementazione delle funzionalità base e sistema di autenticazione</p>
             </div>
         </div>
 
@@ -63,15 +60,15 @@
                 <ul class="space-y-2 text-gray-600">
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">priority_high</span>
-                        Facilità di organizzazione eventi
+                        Sicurezza dati utenti
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">priority_high</span>
-                        Sistema di notifiche efficace
+                        Conformità GDPR
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">priority_high</span>
-                        Flusso di navigazione intuitivo
+                        Sistema di matching
                     </li>
                 </ul>
             </div>
@@ -84,28 +81,28 @@
                 <ul class="space-y-2 text-gray-600">
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">code</span>
-                        Implementazione matching system
+                        Sistema real-time notifications
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">code</span>
-                        Facilità d'uso
+                        Sistema di geolocalizzazione
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">code</span>
-                        Efficienza operativa
+                        Sistema commissioni e pagamenti Stripe (da valutare)
                     </li>
                 </ul>
             </div>
         </div>
 
-        <!-- Sprint Timeline Fase 1 Rivista -->
+        <!-- Sprint Timeline Fase 1 -->
         <div class="space-y-6">
             <!-- Sprint 1: Setup e Auth -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">1</span>
-                        <h5 class="font-medium text-gray-800">Foundation & Authentication</h5>
+                        <h5 class="font-medium text-gray-800">Setup Iniziale & Autenticazione</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 1</span>
                 </div>
@@ -116,31 +113,39 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Micro-Analisi dettagliata
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
                                 Setup ambiente di sviluppo
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Sistema auth multi-ruolo completo
+                                Scelta librerie e stack tecnologico
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Database e migrations base
+                                Database schema iniziale
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Setup del progetto e delle varie librerie
+                                Sistema di Auth, login e reset password
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Implementazione 2FA
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Sprint 2: Gestione Eventi -->
+            <!-- Sprint 2: Gestione Utenti -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">2</span>
-                        <h5 class="font-medium text-gray-800">Event Management & Slots</h5>
+                        <h5 class="font-medium text-gray-800">Gestione Utenti & Profili</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 2</span>
                 </div>
@@ -151,31 +156,31 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                CRUD completo eventi
+                                Registrazione Clienti
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                CRUD Atleti
+                                Registrazione Fornitori
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Sistema gestione slot match
+                                Gestione profili
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Filtri di ricerca avanzati
+                                Area personale base
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Sprint 3: Sistema Matching e Profili -->
+            <!-- Sprint 3: Registrazione Fornitori -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">3</span>
-                        <h5 class="font-medium text-gray-800">Matching System & Profili</h5>
+                        <h5 class="font-medium text-gray-800">Onboarding Fornitori & Verifica Manuale</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 3</span>
                 </div>
@@ -186,33 +191,45 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Sistema matching base
+                                Form dati aziendali completi
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Profili atleti completi
+                                Upload e verifica documenti
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Gestione categorie e pesi
+                                Gestione certificazioni professionali
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Sistema proposte match
+                                Validazione P.IVA e documenti fiscali
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Categorizzazione servizi offerti
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Setup disponibilità e orari
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Verifica referenze professionali
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Sprint 4: Notifiche e Ottimizzazione -->
+            <!-- Sprint 4: Sistema Richieste -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">4</span>
-                        <h5 class="font-medium text-gray-800">Notifiche & MVP Refinement</h5>
+                        <h5 class="font-medium text-gray-800">Sistema Geolocalizzazione</h5>
                     </div>
-                    <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 4</span>
+                    <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 3</span>
                 </div>
                 
                 <div class="grid grid-cols-2 gap-4">
@@ -221,41 +238,35 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Sistema notifiche real-time
+                                Setup aree geografiche operative fornitori
+                            </li>                            
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Sistema geolocalizzazione Fornitori
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Email notifications
-                            </li>
-                            <li class="flex items-start text-sm text-gray-600">
-                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Testing completo MVP
-                            </li>
-                            <li class="flex items-start text-sm text-gray-600">
-                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Bug fixing e ottimizzazioni
+                                Sistema geolocalizzazione Clienti
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>                            
+    </div>
 
-
-    <!-- Fase 2: Enhancement -->
+    <!-- Fase 2: Features Avanzate -->
     <div class="bg-white rounded-xl shadow-md p-6 relative overflow-hidden">
-        
         <div class="flex items-center mb-8">
             <div class="flex items-center justify-center w-12 h-12 bg-brand rounded-xl mr-4">
                 <span class="material-icons-outlined text-2xl text-gray-900">upgrade</span>
             </div>
             <div>
                 <div class="flex items-center">
-                    <h3 class="text-lg font-semibold text-yellow-800">Fase 2: Enhancement</h3>
+                    <h3 class="text-lg font-semibold text-yellow-800">Fase 2: Features Avanzate</h3>
                     <span class="ml-4 px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">4 Sprint</span>
                 </div>
-                <p class="text-gray-600 mt-1">Potenziamento funzionalità e ottimizzazione esperienza utente</p>
+                <p class="text-gray-600 mt-1">Implementazione funzionalità avanzate e ottimizzazione esperienza utente</p>
             </div>
         </div>
 
@@ -264,20 +275,20 @@
             <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
                 <div class="flex items-center mb-3">
                     <span class="material-icons-outlined text-[#FCD415] mr-2">psychology</span>
-                    <h4 class="font-medium text-gray-800">Aree di Miglioramento</h4>
+                    <h4 class="font-medium text-gray-800">Aree di Focus</h4>
                 </div>
                 <ul class="space-y-2 text-gray-600">
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">arrow_forward</span>
-                        Ottimizzazione UX/UI
+                        Sistema Chat & Notifiche 
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">arrow_forward</span>
-                        Performance matching system
+                        Matching Richieste
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">arrow_forward</span>
-                        Gestione dati avanzata
+                        Dashboard amministrazione
                     </li>
                 </ul>
             </div>
@@ -285,20 +296,20 @@
             <div class="bg-gray-50 rounded-lg p-4 border border-gray-100">
                 <div class="flex items-center mb-3">
                     <span class="material-icons-outlined text-[#FCD415] mr-2">build</span>
-                    <h4 class="font-medium text-gray-800">Focus Implementazione</h4>
+                    <h4 class="font-medium text-gray-800">Obiettivi Tecnici</h4>
                 </div>
                 <ul class="space-y-2 text-gray-600">
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
-                        Sistema analytics integrato
+                        Ottimizzazione performance
+                    </li>
+                    <li class="flex items-start">
+                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
+                        Sistema di reporting
                     </li>
                     <li class="flex items-start">
                         <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
                         Automazione processi
-                    </li>
-                    <li class="flex items-start">
-                        <span class="material-icons-outlined text-[#FCD415] text-sm mr-2">settings</span>
-                        Reporting avanzato
                     </li>
                 </ul>
             </div>
@@ -306,12 +317,12 @@
 
         <!-- Sprint Timeline Fase 2 -->
         <div class="space-y-6">
-            <!-- Sprint 9 -->
+            <!-- Sprint 5 -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">5</span>
-                        <h5 class="font-medium text-gray-800">Conteggio Pagamenti e Rimborsi</h5>
+                        <h5 class="font-medium text-gray-800">Chat System & Notifiche</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 5</span>
                 </div>
@@ -322,27 +333,27 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Rendicontazione pagamenti e rimborsi
+                                Sistema chat real-time
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Automazione processi contabili
+                                Notifiche email
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Reportistica finanziaria
-                            </li>
+                                Submit Form richieste lavori
+                            </li>                            
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Sprint 10 -->
+            <!-- Sprint 6 -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">6</span>
-                        <h5 class="font-medium text-gray-800">Analytics e Reporting</h5>
+                        <h5 class="font-medium text-gray-800">Matching Richieste</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 6</span>
                 </div>
@@ -353,27 +364,31 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Dashboard analytics
+                                Matching basato su competenze
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Report personalizzabili
+                                Filtro per area geografica
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Export dati multipli formati
+                                Sistema di notifica automatica
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Limiti invio proposte (consigliato)
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Sprint 11 -->
+            <!-- Sprint 7 -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">7</span>
-                        <h5 class="font-medium text-gray-800">Ottimizzazione UX/UI</h5>
+                        <h5 class="font-medium text-gray-800">Admin Dashboard</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 7</span>
                 </div>
@@ -384,55 +399,212 @@
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Revisione UI completa
+                                Dashboard amministratore
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Miglioramento responsive
+                                Sistema di reporting
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Ottimizzazione percorsi utente
+                                Gestione utenti avanzata
+                            </li>
+                            <li class="flex items-start text-sm text-gray-600">
+                                <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
+                                Definizione Commissioni Fornitore
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
 
-            <!-- Sprint 12 -->
+            <!-- Sprint 8 -->
             <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow">
                 <div class="flex items-center justify-between mb-4">
                     <div class="flex items-center">
                         <span class="w-8 h-8 flex items-center justify-center bg-brand rounded-lg text-gray-900 font-medium mr-3">8</span>
-                        <h5 class="font-medium text-gray-800">Performance & Automazione</h5>
+                        <h5 class="font-medium text-gray-800">Ottimizzazione & Deploy</h5>
                     </div>
                     <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Settimana 8</span>
                 </div>
                 
                 <div class="grid grid-cols-2 gap-4">
                     <div>
-                        <h6 class="text-sm font-medium text-gray-700 mb-2">Miglioramenti Generali</h6>
+                        <h6 class="text-sm font-medium text-gray-700 mb-2">Obiettivi Finali</h6>
                         <ul class="space-y-1">
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Ottimizzazione query
+                                Ottimizzazione performance
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Miglioramenti su organizzazioni incontri
+                                Testing completo sistema
                             </li>
                             <li class="flex items-start text-sm text-gray-600">
                                 <span class="material-icons-outlined text-green-500 text-sm mr-1">check_circle</span>
-                                Miglioramenti su azioni e utilità
+                                Deployment produzione
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
+    <!-- Sprint Opzionali - Da Approfondire -->
+    <div class="bg-gray-50 rounded-xl p-6 mb-8 border-l-4 border-yellow-400">
+        <div class="flex items-center mb-4">
+            <span class="material-icons-outlined text-yellow-500 mr-2">info</span>
+            <h3 class="text-lg font-semibold text-gray-800">Sprint Opzionali - Necessaria Valutazione</h3>
+        </div>
+        <p class="text-gray-600 mb-6">
+            I seguenti sprint rappresentano funzionalità avanzate che richiedono un'analisi approfondita con il cliente 
+            per valutarne l'effettiva implementazione e le modalità specifiche.
+        </p>
 
+        <!-- Sprint Opzionale 1: Sistema Pagamenti  -->
+        <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow mb-4">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <span class="w-8 h-8 flex items-center justify-center bg-yellow-100 rounded-lg text-yellow-800 font-medium mr-3">A</span>
+                    <h5 class="font-medium text-gray-800">Sistema Pagamenti</h5>
+                </div>
+                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Opzionale</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h6 class="text-sm font-medium text-gray-700 mb-2">Funzionalità da Valutare</h6>
+                    <ul class="space-y-1">
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Gestione automatica fee applicata al fornitore che accetta la richiesta
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Sistema di addebito automatico a fine mese
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Integrazione Stripe e registrazione Carta di Pagamento fornitore
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="text-sm font-medium text-gray-700 mb-2">Considerazioni</h6>
+                    <ul class="space-y-1">
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Garanzia di sicurezza nelle transazioni tramite protocolli avanzati
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Sistema automatico di gestione delle fee
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Notifiche automatiche per ricordare ai fornitori gli addebiti imminenti
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sprint Opzionale 2: Caricamento Immagini Portfolio -->
+        <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow mb-4">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <span class="w-8 h-8 flex items-center justify-center bg-yellow-100 rounded-lg text-yellow-800 font-medium mr-3">B</span>
+                    <h5 class="font-medium text-gray-800">Caricamento Immagini Portfolio Fornitori</h5>
+                </div>
+                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Opzionale</span>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h6 class="text-sm font-medium text-gray-700 mb-2">Funzionalità da Valutare</h6>
+                    <ul class="space-y-1">
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Possibilità per i fornitori di caricare immagini di portfolio
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Revisione e approvazione delle immagini da parte dell'admin
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Pubblicazione delle immagini approvate per mostrare i lavori di ristrutturazione
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="text-sm font-medium text-gray-700 mb-2">Considerazioni</h6>
+                    <ul class="space-y-1">
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Creazione di un sistema semplice e intuitivo per il caricamento delle immagini
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Notifica al fornitore sull'esito della revisione
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Possibilità di categorizzare le immagini per tipologia di intervento
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Sprint Opzionale 3: Gestione Commissioni Fornitori -->
+        <div class="bg-white rounded-lg border border-gray-200 p-4 hover:shadow-md transition-shadow mb-4">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <span class="w-8 h-8 flex items-center justify-center bg-yellow-100 rounded-lg text-yellow-800 font-medium mr-3">C</span>
+                    <h5 class="font-medium text-gray-800">Gestione Commissioni Fornitori</h5>
+                </div>
+                <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">Opzionale</span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h6 class="text-sm font-medium text-gray-700 mb-2">Funzionalità da Valutare</h6>
+                    <ul class="space-y-1">
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Possibilità per i fornitori di creare un listino personalizzato
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Definizione di regole di sconto o promozioni specifiche
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">pending</span>
+                            Applicazione automatica delle condizioni personalizzate quando viene accettata una richiesta
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h6 class="text-sm font-medium text-gray-700 mb-2">Considerazioni</h6>
+                    <ul class="space-y-1">
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Interfaccia intuitiva per la gestione delle regole di commissione
+                        </li>
+                        <li class="flex items-start text-sm text-gray-600">
+                            <span class="material-icons-outlined text-yellow-500 text-sm mr-1">lightbulb</span>
+                            Integrazione con il sistema di gestione delle richieste per applicare le regole
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+
+    </div>
 
     <!-- Nota Finale -->
     <div class="bg-gray-50 rounded-lg p-6 border border-gray-200 mt-8">
